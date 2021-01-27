@@ -1,0 +1,35 @@
+.fade-transition {
+  position: relative;
+  .fade-transition__item {
+  }
+
+  .fade-transition__item-enter {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 0;
+  }
+
+  .fade-transition__item-enter-active {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+
+  .fade-transition__item-exit {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .fade-transition__item-exit-active {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+}
